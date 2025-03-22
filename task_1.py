@@ -10,3 +10,6 @@ capitalized_letters = {shop.capitalize(): [product.capitalize() for product in p
 print(capitalized_letters)
 for shop, products in capitalized_letters.items():
     print(f"{shop}: {products}")
+
+all_products = sum(len(products) for products in shopping_list.values())
+print(f"W sumie kupuję {all_products} produktów")
