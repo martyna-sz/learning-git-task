@@ -13,3 +13,5 @@ for shop, products in capitalized_letters.items():
 
 all_products = sum(len(products) for products in shopping_list.values())
 print(f"W sumie kupuję {all_products} produktów")
+
+print("Hello")
