@@ -15,3 +15,7 @@ all_products = sum(len(products) for products in shopping_list.values())
 print(f"W sumie kupuję {all_products} produktów")
 
 print("Hello")
+
+for i in range (1,100):
+    if i % 5 == 0:
+        print(i, end=" ")
